@@ -1,7 +1,10 @@
+:root {
+  --primare-text-color: ;
+}
 body {
   background: #e5e5e5;
   color: #757575;
-  font-family: Open Sans, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -12,9 +15,38 @@ body {
   text-decoration: none;
 }
 .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .logo-accent {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #000000;
+}
+.logo-allocation {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  color: #212121;
 }
