@@ -178,6 +178,50 @@ body {
   color: var(--second-text-color);
 }
 
+/* ----------PORTFOLIO-BTN----------- */
+
+.btn-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.btn-item {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-item:hover,
+.btn-item:focus {
+  color: #2196f3;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+  color: var(--first-text-color);
+}
+
+.project-after-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
 /* ----------FOOTER------------- */
 
 .footer {
