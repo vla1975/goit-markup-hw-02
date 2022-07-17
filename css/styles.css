@@ -7,6 +7,8 @@
   --first-background-color: #ffffff;
   --second-background-color: #2f303a;
   --third-background-color: #f5f4fa;
+  --acent-color: #2196f3;
+  --text-logo: #000000;
 }
 
 body {
@@ -45,7 +47,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--text-logo);
 }
 
 .header-link {
@@ -55,6 +57,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
+
+.current {
+  color: var(--alternativ-color);
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--alternativ-color);
@@ -196,7 +203,7 @@ body {
 }
 
 .btn-item {
-  background-color: #f5f4fa;
+  background-color: var(--third-background-color);
 }
 
 .btn-item:hover,
