@@ -7,7 +7,7 @@
   --first-background-color: #ffffff;
   --second-background-color: #2f303a;
   --third-background-color: #f5f4fa;
-  --acent-color: #2196f3;
+  --acent-color: #188ce8;
   --text-logo: #000000;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--acent-color);
 }
 
 .hero-title {
