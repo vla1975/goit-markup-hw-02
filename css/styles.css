@@ -1,12 +1,17 @@
 :root {
   --first-text-color: #212121;
   --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --text-adress-color: rgba(255, 255, 255, 0.6);
   --alternativ-color: #2196f3;
+  --first-background-color: #ffffff;
+  --second-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
 }
 
 body {
-  background: #ffffff;
-  color: #212121;
+  background: var(--first-background-color);
+  color: var(--first-text-color);
   font-family: Roboto, sans-serif;
 }
 
@@ -21,7 +26,7 @@ body {
 /* ----------------------HEADER------------------- */
 
 .header {
-  background-color: #e5e5e5;
+  background-color: var(--first-background-color);
 }
 .logo {
   font-family: "Raleway";
@@ -84,7 +89,7 @@ body {
 /* -----------------------------HERO-------------------- */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--second-background-color);
 }
 
 .hero-pre-title {
@@ -94,7 +99,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .hero-btn {
@@ -106,21 +111,17 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 .hero-btn {
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
-.hero-list {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--first-text-color);
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 
 .hero-title {
@@ -152,6 +153,10 @@ body {
 }
 
 /* --------------TEAM------------- */
+.team {
+  background-color: var(--third-background-color);
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -190,9 +195,13 @@ body {
   color: var(--first-text-color);
 }
 
+.btn-item {
+  background-color: #f5f4fa;
+}
+
 .btn-item:hover,
 .btn-item:focus {
-  color: #ffffff;
+  color: var(--third-text-color);
   background-color: var(--alternativ-color);
 }
 
@@ -215,7 +224,7 @@ body {
 /* ----------FOOTER------------- */
 
 .footer {
-  background: #2f303a;
+  background: var(--second-background-color);
 }
 
 .logo-allocation {
@@ -225,27 +234,33 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .footer-adress-link {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 .footer-adress-mail {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-adress-color);
 }
 .footer-adress-tel {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-adress-color);
 }
